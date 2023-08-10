@@ -57,11 +57,11 @@ body {
   background-color: rgb(11 55 255 / 90%);
   color: white;
 }
-.btn:nth-child(14) {
+.btn:nth-child(18) {
   background-color: rgb(11 55 255 / 90%);
   color: white;
 }
-.btn:nth-child(15) {
+.btn:nth-child(19) {
   background-color: rgb(11 55 255 / 90%);
   color: white;
 }
@@ -150,7 +150,7 @@ body {
   }
 }
 @media (max-width: 273px) {
-    body,html{
-        overflow: hidden;
-    }
+  body,html{
+      overflow: hidden;
+  }
 }
