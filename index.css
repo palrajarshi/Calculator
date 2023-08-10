@@ -127,13 +127,13 @@ body {
 }
 @media (max-width: 440px) {
   .container {
-    min-width: 24rem;
+    min-width: 23rem;
   }
 }
 @media (max-width: 380px) {
   .container {
     overflow: hidden;
-    min-width: 17rem;
+    min-width: 100vw;
   }
   #disp {
     font-size: 1.4rem;
@@ -142,7 +142,8 @@ body {
     text-align: center;
   }
   .btn-cancel{
-    top: 38%;
+    top: 59%;
+    right: 8%;
   }
   .btn{
     font-size: 1.5rem;
