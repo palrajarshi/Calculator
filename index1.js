@@ -3,8 +3,8 @@ let inputDisp = document.getElementById("disp");
 
 // Click event listener for buttons
 buttons.forEach((element, index) => {
-  buttons[index].addEventListener("click", () => {
-    const buttonVal = buttons[index].textContent;
+  element.addEventListener("click", () => {
+    const buttonVal = element.textContent;
     console.log(buttonVal);
     if (buttonVal === "=") {
       evaluate();
